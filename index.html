@@ -8,8 +8,11 @@
     <title>legal Solutions Website</title>
     <!-- bs css -->
     <link rel="stylesheet" href="styles/css/bootstrap.min.css">
-
-    <!-- external css  -->
+    <!-- google fonts  -->
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=EB+Garamond&display=swap" rel="stylesheet">
+    <!-- external styles  -->
     <link rel="stylesheet" href="styles/style.css">
     <!-- font-awesome kit link  -->
     <script src="https://kit.fontawesome.com/3cbafabe04.js" crossorigin="anonymous"></script>
@@ -28,25 +31,65 @@
                 <div class="collapse navbar-collapse" id="navbarSupportedContent">
                     <ul class="navbar-nav ms-auto mb-2 mb-lg-0">
                         <li class="nav-item">
-                            <a class="nav-link " aria-current="page" href="#">Home</a>
+                            <a class="nav-link " aria-current="page" href="#">Home
+                                <i class="py-3 px-2 fa-solid fa-chevron-right bg-transparent rounded"></i>
+
+                            </a>
                         </li>
                         <li class="nav-item">
-                            <a class="nav-link" href="#">Services </a>
+                            <a class="nav-link" href="#">Services
+                                <i class="py-3 px-2 fa-solid fa-chevron-right bg-transparent rounded"></i>
+                            </a>
                         </li>
                         <li class="nav-item">
-                            <a class="nav-link" href="#">Cases</a>
+                            <a class="nav-link" href="#">Cases
+                                <i class="py-3 px-2 fa-solid fa-chevron-right bg-transparent rounded"></i>
+
+                            </a>
                         </li>
                         <li class="nav-item">
-                            <a class="nav-link" href="#">Blogs</a>
+                            <a class="nav-link" href="#">Blogs
+                                <i class="py-3 px-2 fa-solid fa-chevron-right bg-transparent rounded"></i>
+
+                            </a>
                         </li>
                         <li class="nav-item">
-                            <a class="nav-link" href="#">Contact US</a>
+                            <a class="nav-link" href="#">Contact US
+                                <i class="py-3 px-2 fa-solid fa-chevron-right bg-transparent rounded"></i>
+
+                            </a>
                         </li>
                     </ul>
 
 
-                    <button class="btn btn-success ms-5" type="submit">Free Consultation</button>
+                    <!-- <button class="btn btn-success ms-5" type="submit">Free Consultation</button> -->
+                    <!-- Button trigger modal -->
+                    <button type="button" class="btn btn-button text-white" data-bs-toggle="modal"
+                        data-bs-target="#exampleModal">
+                        Free Consultation
+                    </button>
 
+                    <!-- Modal -->
+                    <div class="modal fade" id="exampleModal" tabindex="-1" aria-labelledby="exampleModalLabel"
+                        aria-hidden="true">
+                        <div class="modal-dialog">
+                            <div class="modal-content">
+                                <div class="modal-header">
+                                    <h1 class="modal-title fs-5" id="exampleModalLabel">Modal title</h1>
+                                    <button type="button" class="btn-close" data-bs-dismiss="modal"
+                                        aria-label="Close"></button>
+                                </div>
+                                <div class="modal-body">
+                                    How do I get a free consultation?
+                                </div>
+                                <div class="modal-footer">
+                                    <button type="button" class="btn btn-secondary"
+                                        data-bs-dismiss="modal">Close</button>
+                                    <button type="button" class="btn btn-button text-white">Save changes</button>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
                 </div>
             </div>
         </nav>
@@ -60,7 +103,7 @@
                         <p>Amet minim mollit non deserunt ullamco est sit aliqua
                             dolor do amet sint.</p>
                         <input type="search" class="py-3 px-5 rounded" placeholder="search your service">
-                        <input type="button" class="bg-secondary text-white py-2 px-4 rounded ms-3" value="Search">
+                        <input type="button" class="btn-button text-white py-2 px-4 rounded ms-3" value="Search">
                     </div>
                 </div>
 
@@ -229,7 +272,7 @@
         <!-- FAQ Section  -->
         <section class=" rounded mt-5 py-5 px-5">
             <div class="w-75 mx-auto mt-3">
-                <h1 class=" my-5  text-center">Frequently Aksed Any <span class="text-danger">Questions</span></h1>
+                <h1 class=" my-5  text-center">Frequently Aksed Any Questions</h1>
                 <p class="text-center mb-4">As you can see, FAQ questions are essential for any organization, and if you
                     want
                     to know how to do FAQ and build the content of the list of FAQ questions, dive in.</p>
@@ -337,7 +380,9 @@
         <section class="mt-5 p-3">
             <div class="w-50 mx-auto">
                 <h1 class="mb-3 text-center">Contact With US </h1>
-                <p class="mb-5 text-center">Explain why someone should contact your business. Describe how your business can help solve the visitors' problems. Include an name , email and subject so visitors can get in touch with you on their first attempt</p>
+                <p class="mb-5 text-center">Explain why someone should contact your business. Describe how your business
+                    can help solve the visitors' problems. Include an name , email and subject so visitors can get in
+                    touch with you on their first attempt</p>
             </div>
             <div class="row ">
                 <div class="col-12 col-md-6">
@@ -403,7 +448,9 @@
         <div class="row">
             <div class="col-md-3">
                 <img src="images/logo.png" class="mb-3" alt="">
-                <p class="text-justify">Justice is fairness in the way that people are treated. He has a good overall sense of justice and fairness. He only wants freedom, justice and equality. There is no justice in this world!</p>
+                <p class="text-justify">Justice is fairness in the way that people are treated. He has a good overall
+                    sense of justice and fairness. He only wants freedom, justice and equality. There is no justice in
+                    this world!</p>
             </div>
             <div class="col-md-3">
                 <h3>Useful Link</h3>

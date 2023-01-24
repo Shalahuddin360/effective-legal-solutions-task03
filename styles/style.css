@@ -1,3 +1,7 @@
+body{
+    font-family: 'EB Garamond', serif;
+
+}
 .banner{
     background-image: url('../images/banner.png');
     background-repeat: no-repeat;
@@ -21,4 +25,7 @@
     background-image: url('../images/slider-3.jpg');
     background-repeat: no-repeat;
     background-size: cover;
+}
+.btn-button{
+ background-color: #B68C5A;
 }
